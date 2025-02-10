@@ -54,3 +54,7 @@ command [options] [arguments]
 
 ### cat (concatenate)
 - 파일의 내용을 출력
+- 예시
+    - cat README.md
+    - README TIL(Today I learned)
+오늘 배운 내용을 기록합니다.
