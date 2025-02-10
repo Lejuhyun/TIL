@@ -53,3 +53,5 @@ console.log("hello")
     - 하위항목 만들려면 tab 누르고 -
 - 두번째
 - 세번째
+
+[출처](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
