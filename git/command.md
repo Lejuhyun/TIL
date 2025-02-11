@@ -41,6 +41,9 @@ git add .
 ```
 git commmit -m {"메시지"} 
 ```
+- git commit만 쓰는 경우
+    - i를 눌러서 메시지 입력
+    - esc 눌러서 나가기
 
 ## `git log` (히스토리 조회)
 - 커밋의 히스토리를 조회
