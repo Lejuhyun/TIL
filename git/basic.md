@@ -15,6 +15,7 @@
 - Tracked(관리대상임), Untracked(관리대상이 아님)
     - Tracked: 이미 스냅샷에 포함돼 있던 파일이다
         -Unmodified(수정하지 않음), modified(수정함), Staged(커밋으로 저장소에 기록할) 
+    - Untracked: 워킹 디렉토리에 있는 파일 중 스냅샷에도 staging area에도 포함되지 않은 파일이다.
 - untracked 상태의 파일을 add 시키면 staged 상태가 된다. 
 - staged 상태의 파일을 커밋하면 unmodified 상태가 된다
 - 수정하면 modified 상태가 된다
