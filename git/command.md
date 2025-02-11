@@ -64,9 +64,12 @@ git log --graph
     - 일반적으로 remote name은 origin을 사용
 ```
 git remote add {remote_name} {remote_url}
-git remote add origin https://github.com/Lejuhyun/Lejuhyun.github.io
+```
 
 ```
+git remote add origin https://github.com/Lejuhyun/Lejuhyun.github.io
+```
+
 2. 원격 저장소 확인
 ```
 git remote -v
