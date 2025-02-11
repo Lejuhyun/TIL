@@ -10,7 +10,6 @@ command [options] [arguments]
 - arguments: 명령어에 전달할 인자(값)
 
 ## 1. 파일 및 디렉토리(=폴더) 관리
-
 ### ls (list) 
 - 현재 내 위치에 있는 모든 파일을 보여줌
 - 디렉토리 내용 목록을 보여줍니다.
@@ -31,7 +30,8 @@ command [options] [arguments]
 
 ### pwd (print working directory)
 - 현재 작업 중인 디렉토리의 전체 경로를 출력
-
+- 예시
+    - /c/Users/1-15/Desktop/DAMF2/TIL
 ### mkdir (make directory)
 - 새로운 디렉토리(=폴더)를 생성.
 - `mkdir {directory-name}`
