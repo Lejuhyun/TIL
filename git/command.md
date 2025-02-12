@@ -123,3 +123,20 @@ git pull origin master
 6. git pull origin master 
 7. 단어 둘 중 선택
 8. git push origin master
+
+# 3일차
+
+## git branch (브랜치 생성)
+- `git branch` : branch 목록확인 
+- `git branch {branch_name}` : branch 생성
+    - `git branch testing` : testing 이라는 브랜치를 생성한다
+- `git branch -d {branch_name}` : branch 삭제
+
+## git switch (다른 브랜치로 이동)
+- `git checkout {branch_name}` : branch_name으로 이동
+- `git switch {branch_name}` : branch_name으로 이동 (최신 명령어)
+    - 예시 `git switch master` : master로 이동
+
+## git merge (브랜치 병합)
+- `git merge {target_branch_name}` : 현재 branch로 target_branch_name을 가져와서 병합
+- teting 브랜치도 add commit하고 동시에 master 브랜치도 add commit하면 충돌발생 -> merge
